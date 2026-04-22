@@ -2,6 +2,7 @@ import express from "express";
 import "dotenv/config";
 import { rateLimiter } from "./middleware/rateLimiter.js";
 import { connectRedis } from "./database/index.js";
+import client from "./database/index.js";
 
 const app = express();
 app.use(express.json());
