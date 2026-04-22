@@ -171,7 +171,6 @@ curl -X POST http://<PUBLIC_IP>:3000/request \
 
 ## 💡 Design Decisions
 
-* Used Redis for shared state across instances
 * Chose fixed window for simplicity and performance
 * Middleware-based approach for reusability
 
